@@ -5,3 +5,4 @@ from django.db import models
 class Myuser(models.Model):
     firstname = models.TextField()
     lastname = models.TextField()
+    middlename = models.TextField()
